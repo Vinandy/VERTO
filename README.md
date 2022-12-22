@@ -39,7 +39,7 @@ http://localhost:8000/GA - for average DB
 ## How to run the program?
 
 1. - Start server.py
-2. - Start admin_bot.py or bot.py if you use only one device were you can run code. Else you can start both (On diffrent devices or diffrent ip).
+2. - Start admin_bot.py or bot.py if you use only one device where you can run code. Else you can start both (On diffrent devices or diffrent ip).
 
 
 ## Link to Telegram User bot - https://t.me/VertoVerto_bot
