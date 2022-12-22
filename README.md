@@ -18,7 +18,7 @@ You must change host, server to your ip, or program will terminate!
 
 - clone the repository
 ```
-$ git clone https://github.com/mtaufikromdony/py-socket-server-client.git
+$ git clone https://github.com/Vinandy/VERTO
 ```
 
 ## How to Use API
