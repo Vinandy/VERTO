@@ -39,3 +39,4 @@ http://localhost:8000/GA - for average DB
 ## Link to Telegram bot - https://t.me/VertoVerto_bot
 
 We not gonna give you link to admin bot. If you want to test - ask Andrew Vinogradov :)
+(LINK IN WORD DOCUMENT OF THE PROJECT)
