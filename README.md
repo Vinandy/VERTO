@@ -1,6 +1,6 @@
 ## VERTO - Telegram Bot, including socket.
 
-## How to run the program?
+## How to setup the program?
 
 To run program you must install:
 ```
@@ -36,7 +36,14 @@ http://localhost:8000/GM - for marketplace DB
 ```
 http://localhost:8000/GA - for average DB
 ```
-## Link to Telegram bot - https://t.me/VertoVerto_bot
+## How to run the program?
 
-We not gonna give you link to admin bot. If you want to test - ask Andrew Vinogradov :)
-(LINK IN WORD DOCUMENT OF THE PROJECT)
+1. - Start server.py
+2. - Start admin_bot.py or bot.py if you use only one device were you can run code. Else you can start both (On diffrent devices or diffrent ip).
+
+
+## Link to Telegram User bot - https://t.me/VertoVerto_bot
+
+## Link to Telegram Admin bot - https://t.me/Verto_admin_bot
+
+
