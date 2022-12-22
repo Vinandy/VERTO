@@ -37,6 +37,8 @@ def view_all():
     return message
 
 
+"!!COMMENTED FOR TESTS!!"
+
 """import random
 import socket
 dict = ['Volga','Aurus','Vesta','X-Ray','Kamaz','Patrol','Moskvich','Kia K5','Toyota Camry','Kia Sorento','Kia Rio','Kia Soul','Kia Ceed','Kia Optima','Toyota Land Cruiser','Toyota Tundra','Toyota RAV4','Toyota Celica','Toyota Highlander','Toyota Corolla','Nissan Qashqai','Nissan GT-R','Nissan X-Trail','Nissan Teana','Nissan Pathfinder','Nissan Juke','Hyundai Palisade','Hyundai Solaris','Hyundai Santa Fe','Hyundai Sonata','Hyundai Creta','Hyundai Elantra','Citroen Berlingo','EXEED VX','Citroen C1','Citroen C3','Citroen C4','Citroen C5','Audi A3','Audi A4','Audi A5','Audi A6','Audi A7','Audi A8','Audi Q3','Audi Q5','Audi Q7','Audi Q8','BMW 1','BMW 3','BMW 4','BMW 5','BMW 6','BMW 7','BMW X1','BMW X3','BMW X4','BMW X5','BMW X6','Mercedes-Benz A','Mercedes-Benz C','Mercedes-Benz E','Mercedes-Benz S','Mercedes-Benz V','Mercedes-Benz CLA','Mercedes-Benz GL','Chery Amulet','Chery Fora','Chery IndiS','Chery QQ6','Chery Tiggo','Chevrolet Aveo','Chevrolet Camaro','Chevrolet Captiva','Chevrolet Cobat','Chevrolet Cruze','Chevrolet Epica','Chevrolet Lacetti','Chevrolet Lanos','Chevrolet Tahoe','Chevrolet TrailBlazer','Daewoo Gentra','Daewoo Lanos','Daewoo Leganza','Daewoo Magnus','Daewoo Matiz','Daewoo Nexia','EXEED TXL','Volvo S40','Volvo S60','Geely Atlas','Geely Coolray','Geely GC6','Geely GS','Geely MK']

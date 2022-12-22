@@ -3,14 +3,16 @@ import socket
 import client as cl
 from telebot import types
 
+"------------------------------------------"
 port = 4005
-
 server = ('192.168.1.52', 3001)
-#host = '192.168.31.84'
-myHostName = socket.gethostname()
-s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-#host = socket.gethostbyname(myHostName)
 host = '192.168.1.52'
+"------------------------------------------"
+
+
+s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+
+#host = '192.168.1.52'
 print(host, port)
 s.bind((host, port))
 
@@ -228,27 +230,6 @@ def get_del_avg(message):
     start(message)
     print(data)
 
-"""
-# Функция view_all
-@bot.message_handler(commands=["view_all"])
-def view_all(message):
-    mess = f'<b>{message.from_user.first_name}</b>, ты выбрал <u>режим просмотра всех объявлений!</u>'
-    bot.send_message(message.chat.id, mess, parse_mode='html')
-    ino = cl.view_all()
-    name = ''
-    s.sendto(ino.encode('utf-8'), server)
-    data, addr = s.recvfrom(4294967296)
-    data = data.decode('utf-8')
-    por = ""
-    for i in range(len(data)):
-        if data[i] == ";":
-            por += '\n'
-        else:
-            por += data[i]
-    bot.send_message(message.chat.id, por)
-    start(message)
-    # print(por)
-"""
 
 @bot.message_handler(content_types=["text", "audio", "document", "photo", "sticker", "video", "video_note", "voice", "location", "contact",
                  "new_chat_members", "left_chat_member", "new_chat_title", "new_chat_photo", "delete_chat_photo",

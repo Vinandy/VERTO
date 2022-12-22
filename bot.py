@@ -3,15 +3,14 @@ import socket
 import client as cl
 from telebot import types
 
-
+"----------------------------------"
 port = 4005
-
-server = ('192.168.1.52', 3001)
-#host = '192.168.31.84'
-myHostName = socket.gethostname()
-s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-#host = socket.gethostbyname(myHostName)
 host = '192.168.1.52'
+server = ('192.168.1.52', 3001)
+"----------------------------------"
+
+
+s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 print(host, port)
 s.bind((host, port))
 

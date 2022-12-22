@@ -81,7 +81,7 @@ def view_market(data):
 
         return data
     else:
-        data = "Car didn't find?"
+        data = "Car didn't find"
         return data
 
 def view_avg(message):
@@ -297,7 +297,7 @@ def delete_market(data):
         sql.execute(f"DELETE FROM Market WHERE Car_ID = '{int(delete)}'")
         db.commit()
 
-        data = "Car delete!"
+        data = "Car deleted!"
         return data
     else:
         data = "No such car in database"
@@ -319,7 +319,7 @@ def delete_avg(data):
         sql.execute(f"DELETE FROM Cars WHERE Car_name = '{delete}'")
         db.commit()
 
-        data = "Car delete!"
+        data = "Car deleted!"
         return data
     else:
         data = "No such car in DataBase"
@@ -333,10 +333,12 @@ def alt(data):
 
 
 def Main():
+
+    "-----------------------------------------------------------------"
     host = '192.168.1.52'  # Server ip ВСТАВИТЬ СВОЙ IP!
     port = 3001
-    myHostName = socket.gethostname()
-    #host = socket.gethostbyname(myHostName)
+    "-----------------------------------------------------------------"
+
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     s.bind((host, port))
 
